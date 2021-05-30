@@ -1,0 +1,82 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-image: url(assets/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	font-family: sans-serif;
+
+}
+.loginbox h1{
+	margin-top: 40px;
+	text-align: center;
+	color: darkorange;
+}
+.loginbox {
+	height: 420px;
+	width: 320px;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 30px;
+}
+.loginbox input[type="email"],input[type="password"]{
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+    border-bottom: 2px solid #c0102e;
+    font-size: 14px;
+    color:#b5a909;
+    height: 25px;
+    font-weight: bold;
+}
+.loginbox input[type="submit"]{
+	outline: none;
+	border: none;
+	color: #fff;
+	background: darkorange;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 50px;
+	margin: 20px 0 20px;
+	height: 36px;
+}
+.loginbox p{
+	color: darkgreen;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 6px;
+}
+
+.loginbox a {
+	color: #fff;
+	text-decoration: none;
+	float:  center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*Hover*/
+
+.loginbox input[type="submit"]:hover{
+	transition: all 0.3s ease-in;
+	background: transparent;
+	border: 2px solid darkorange;
+	color: darkorange;
+}
+
+.loginbox a:hover {
+	color: darkorange;
+	transition: all;
+}
+.loginbox input[type="email"]:hover,input[type="password"]:hover{
+	transition: all 2s ease-in;
+	color: darkorange;
+}
+/*End of Hover*/
